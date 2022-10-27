@@ -1,0 +1,63 @@
+generalInformation:
+  serviceAdminEmail: cai.liu@allianz.de
+  gheUsername: liucaissr
+  billingAccount: JEQP
+  billingTeamName: jeqp
+  gheToken: ""
+  adpAccessToken: ""
+projectInformation:
+  projectName: testCai_1
+  projectShortName: testCai-repo-name
+  buildType: maven
+  testInstance: true
+  preprodInstance: false
+  uatInstance: false
+cloudService:
+  awsOrAzure: aks
+  deploymentLocation: azure_we1
+  acpOrCRP: crp
+  displayName: d
+  version: ""
+  productionCluster: false
+  subscriptionId: fdf
+  enableStorageProvisioning: false
+  ingressSubnetName: "123"
+  clusterSubnetName: "123"
+  adAdminGroupName: "234"
+  adViewerGroupName: "23"
+  adEditorGroupName: "56"
+  privateDnsZone: "4"
+  awsAccountId: ""
+  instanceType: ""
+  r53HostedZoneDomainName: ""
+  sshWorkerKey: ""
+  availabilityZones: ""
+  az1HarmonizedSubnetId: ""
+  az1WorkerSubnetId: ""
+  az1PodSubnetId: ""
+  az2HarmonizedSubnetId: ""
+  az2WorkerSubnetId: ""
+  az2PodSubnetId: ""
+  az3HarmonizedSubnetId: ""
+  az3WorkerSubnetId: ""
+  az3PodSubnetId: ""
+  workerSecurityGroupIds: ""
+  ingressSecurityGroupIds: ""
+  customDefinedAutomationAdminRole: ""
+automationService:
+  jenkinsOrGithubActions: jenkins
+  jenkinsWebhook: https://jenkins
+gheOrganization:
+  organizationName: JEQP
+  isNew: false
+testingTools:
+  sonarQube: false
+jira:
+  projectKey: "5656"
+  projectName: "3"
+  leadUsername: w
+  documentationUrl: "4"
+  adminToken: ""
+gheOrganisation:
+  organisationName: liucaissr
+  isNew: false
